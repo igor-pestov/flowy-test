@@ -1,0 +1,13 @@
+.MainArea {
+  width: 80%;
+  background-color: #fff;
+
+  .DropArea {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    border: 1px solid black;
+    grid-gap: 1px;
+  }
+}

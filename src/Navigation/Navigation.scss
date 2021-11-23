@@ -1,0 +1,30 @@
+.Navigation {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #E8E8EF;
+    width: calc(100% + 20px);
+    margin-left: -20px;
+    margin-top: 10px;
+    .nav-element{ 
+        display: inline-block;
+        text-align: center;
+        line-height: 48px;
+        width: calc(88% /3);
+        height: 48px;
+        font-weight: 700;
+        color: #808292;
+        font-size: 14px;   
+        cursor: pointer;
+    }
+    .active {
+        color: #393C44!important;
+    }
+    .active:after {
+        display: block;
+        content: "";
+        width: 100%;
+        height: 4px;
+        background-color: #217CE8;
+        margin-top: -4px;
+    }
+}
